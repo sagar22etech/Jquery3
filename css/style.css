@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.checkcontrol{
+  text-align: center;
+  width: 400px;
+  background: #9edfe2;
+  padding: 20px 40px;
+  margin: 100px auto;
+}
+ul{
+  list-style: none;
+}
