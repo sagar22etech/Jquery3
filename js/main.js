@@ -17,9 +17,11 @@ $(document).ready(function(){
              });
              if (flag && checked) {
                  parent.children('input[type="checkbox"]').prop("checked", checked);
-             } else if (flag && !checked) {
+             }
+              else if (flag && !checked) {
                  parent.children('input[type="checkbox"]').prop("checked", checked);
-             } else {
+             }
+             else {
                  check.parents("li").children('input[type="checkbox"]').prop({
                      checked: true
                  });
